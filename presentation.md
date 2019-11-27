@@ -1,0 +1,3 @@
+- A link to YouTube video https://youtu.be/mzhN3bbJ9Dg
+- A link to Reveal presentation: https://irbris.github.io/Presentation/#/
+- A link to the transcript of presentation: https://github.com/irbris/Presentation/blob/gh-pages/presentation.md
