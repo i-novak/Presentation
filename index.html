@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <title>canvas</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section class="section1" data-background="img/bg0.gif">
+          <h1>Canvas</h1>
+        </section>
+        
+        <section class="section2" data-background="img/bg1.jpg">
+        </section>
+        
+        <section class="section3" data-background="img/bg2.jpg">
+        </section>
+        
+        <section class="section4" data-background-video="img/video.mp4">
+        </section>
+        
+        <section class="section5" data-background="img/bg3.jpg"> 
+        </section>
+        
+        <section class="section6" data-background="img/bg5.gif"> 
+        </section>
+        
+        <section class="section7" data-background="img/bg6.gif">
+        </section>
+        
+        <section class="section8">
+          <h2>Canvas advantages</h2>
+          <img src="img/bg4.gif" alt="">
+        </section>
+        
+        
+        <section class="section14" data-background="">
+         <img src="img/bg7.gif" alt="">
+          <h3>Interactivity</h3>
+        </section>
+        
+        <section class="section14" data-background="">
+         <img src="img/bg8.gif" alt="">
+          <h3>Animation</h3>
+        </section>
+        
+        <section class="section14" data-background="">
+         <img src="img/bg9.gif" alt="">
+          <h3>Flexibility</h3>
+        </section>
+        
+        <section class="section14" data-background="">
+         <img src="img/bg10.jpg" alt="">
+          <h3>Browser Support</h3>
+        </section>
+        
+        <section class="section14" data-background="">
+         <img src="img/bg11.png" alt="">
+          <h3>Popularity</h3>
+        </section>
+        
+        <section class="section14" data-background="">
+         <img src="img/bg12.gif" alt="">
+          <h3>Web standard</h3>
+        </section>
+        
+        <section class="section14" data-background="">
+          <img src="img/bg13.gif" alt="">
+          <h3>Portability</h3>
+        </section>
+        
+        <section class="section14" data-background="">
+         <img src="img/bg14.gif" alt="">
+          <h3>Free tools</h3>
+        </section>
+        
+        <section data-background="">
+         
+          <h2>Canvas Examples</h2>
+          <img src="img/bg18.png" alt="">
+        </section>
+        
+        <section>
+          <h3>Drawing lines</h3>
+	      <pre><code class="hljs" data-trim data-noescape data-line-numbers>
+            context.beginPath();
+            context.moveTo(50,50);
+            context.lineTo(250,150);
+            context.stroke();
+	     </code></pre>
+         <img src="img/bg15.jpg" alt="">
+        </section>
+        
+        <section>
+          <h3>Draw Rectangle</h3>
+	      <pre><code class="hljs" data-trim data-noescape data-line-numbers>
+            context.fillStyle = 'yellow';
+            context.fillRect(50, 50, 200, 100);
+	     </code></pre>
+         <img src="img/bg16.jpg" alt="">
+        </section>
+        
+        <section>
+          <h3>Draw Text</h3>
+	      <pre><code class="hljs" data-trim data-noescape data-line-numbers>
+            context.font = 'italic 40pt Calibri, sans-serif';
+            context.fillText('Hello World!', 50, 50);
+	     </code></pre>
+         <img src="img/bg17.jpg" alt="">
+        </section>
+        
+        <section>
+          <h2>Canvas features</h2>
+          <img src="img/bg18.png" alt="">
+        </section>
+        
+        <section class="section22">
+          <img src="img/bg20.gif" alt="">
+          <h3>Gaming</h3>	
+        </section>
+        
+        
+        <section class="section23">
+          <img src="img/bg22.gif" alt="">
+          <h3>Data Representation</h3>	
+        </section>
+        
+        <section class="section24">
+          <img src="img/bg19.gif" alt="">
+          <h3>Education and Training</h3>	
+        </section>
+        
+        <section class="section25">
+          <img src="img/bg23.gif" alt="">
+          <h3>Art and Decoration</h3>	
+        </section>
+        
+        <section class="section26" data-background="img/bg30.jpg">
+        </section>
+        
+        <section class="section26" data-background="img/bg31.jpg">
+        <h2>Thanks</h2>
+        <h3>for attention</h3>
+        </section>
+        
+      </div>
+    </div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+  </body>
+</html>
